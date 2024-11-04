@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#color-box {
+    width: 600px;
+    height: 400px;
+    background-color: #025e9b; 
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #060511;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#change-color-btn:hover {
+    background-color: #c55440;
+}
